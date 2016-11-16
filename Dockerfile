@@ -12,7 +12,7 @@ RUN apk upgrade --update && \
     apk del build-dependencies && \
     rm -rf /tmp/* /var/cache/apk/*
 
-#Add fixed startGroovy
+#Add fixed startGroovy to work with busybox
 ADD startGroovy /usr/share/groovy/bin/
 
 ENV GROOVY_HOME "/usr/share/groovy"
