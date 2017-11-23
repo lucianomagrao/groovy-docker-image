@@ -11,5 +11,5 @@ This image contains [Groovy](http://groovy-lang.org/) and uses [java:8-alpine](h
 ## Usage
 
 ```
-docker run -it -p $(pwd):/data leslau/groovy /data/foo.groovy
+docker run -it -v $(pwd):/data leslau/groovy /data/foo.groovy
 ```
