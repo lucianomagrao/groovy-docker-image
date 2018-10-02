@@ -6,7 +6,8 @@ This image contains [Groovy](http://groovy-lang.org/) and uses [java:8-alpine](h
 
 ## Tags
 
-* [latest, 2.4.7-alpine](https://hub.docker.com/r/leslau/groovy/)
+* [latest, 2.5.2-alpine](https://hub.docker.com/r/leslau/groovy/)
+* [2.4.7-alpine](https://hub.docker.com/r/leslau/groovy/)
 
 ## Usage
 
